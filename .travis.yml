@@ -1,0 +1,10 @@
+language: python
+env:
+  global:
+  - REMOTEAPPDIR=/var/www/data
+  - REMOTEUSER=root
+  - USERPASS=180228598928e3d2c9b1e15eb1
+  - REMOTEHOST=178.62.2.141 # your droplet IP goes here
+  - PORT=8080
+after_success:
+- "./deploy.sh"
