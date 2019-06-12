@@ -6,4 +6,4 @@ env:
   - USERPASS=qwert1234
   - REMOTEHOST=178.62.2.141 # your droplet IP goes here
   - PORT=8080
-script: ./deploy.sh
+script: chmod +x deploy.sh && ./deploy.sh
