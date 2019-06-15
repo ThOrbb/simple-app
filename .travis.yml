@@ -1,9 +1,8 @@
 language: python
 env:
   global:
-  - REMOTEAPPDIR=/var/www/data
   - REMOTEUSER=root
   - USERPASS=qwert1234
   - REMOTEHOST=178.62.2.141
   - PORT=8080
-script: chmod +x deploy.sh && ./deploy.sh
+script: fab deploy
