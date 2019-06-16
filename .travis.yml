@@ -4,5 +4,4 @@ env:
   - REMOTEUSER=root
   - USERPASS=qwert1234
   - REMOTEHOST=178.62.2.141
-  - PORT=8080
 script: fab deploy
